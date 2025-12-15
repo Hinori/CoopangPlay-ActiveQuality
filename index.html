@@ -8,22 +8,41 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 20px;
             color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        h1, h2 {
+        h1, h2, h3 {
             border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
+            padding-bottom: .3em;
         }
         code {
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-            background-color: rgba(27,31,35,0.05);
-            padding: 0.2em 0.4em;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            background-color: rgba(27,31,35,.05);
+            padding: .2em .4em;
             margin: 0;
             font-size: 85%;
-            border-radius: 6px;
+            border-radius: 3px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #24292e;
+        }
+        .container {
+            padding: 10px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eaecef;
+            font-size: 0.9em;
+            color: #6a737d;
         }
         /* 변경 안내 박스 스타일 */
         .notice-box {
@@ -33,8 +52,11 @@
             border-radius:8px;
             margin-bottom:25px;
         }
-        strong {
-            color: #24292e;
+        .notice-box h2 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-top: 0;
+            font-size: 1.2em;
         }
     </style>
 </head>
